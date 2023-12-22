@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Prepr Frontend Developer Challenge 1: Web Page Creation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
