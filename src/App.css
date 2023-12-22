@@ -1,3 +1,31 @@
+body {
+  background-color: #f3f7fc !important;
+}
+
+.theme-btn{
+  border-radius: 10px;
+  font-size: 12px;
+  position: relative;
+  top:75px;
+  z-index: 10;
+}
+
+.theme-btn.dark{
+  background-color: #3e3e42;
+  color: #FFFFFF;
+}
+
+.theme-btn.light{
+  background-color:  #FFFFFF;
+  color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+};
+
 .App {
   text-align: center;
 }

@@ -1,0 +1,35 @@
+[
+    {
+      "id": "0",
+      "filter_boxes": ["Labs", "Lab Programs"],
+      "card_title": "Lab Card",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/lab_icon.svg",
+      "p_num": 12,
+      "filter_dd": true
+
+    },
+    {
+      "id": "1",
+      "filter_boxes": ["Challenges", "Challenge Paths"],
+      "card_title": "Challenge Card",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/challenge_icon.svg",
+      "p_num": 64,
+      "filter_dd": true
+    },
+    {
+      "id": "2",
+      "filter_boxes": ["Resource modules", "Resource collections", "Resource group"],
+      "card_title": "Resource Card",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/resource_module_icon.svg",
+      "p_num": 80,
+      "filter_dd": true
+    },
+    {
+      "id": "3",
+      "filter_boxes": [],
+      "card_title": "Project Card",
+      "card_pic": "https://preprlabs.org/front/img/Component_Icons/project_icon.svg",
+      "p_num": 608,
+      "filter_dd": false
+    }
+  ]

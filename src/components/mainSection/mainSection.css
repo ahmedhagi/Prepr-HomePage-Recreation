@@ -1,0 +1,311 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+.mainSection.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+}
+
+.mainTabs{
+    background: #fff;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.mainSection.container.dark .mainTabs{
+    background-color: #3e3e42 !important;
+    border-color: #3e3e42 !important;
+    color: #FFFFFF !important;
+    
+}
+
+.mainTab.active{
+    background: #498CCE;
+    color: #FFFFFF;
+}
+
+.mainTab.redge{
+    border-radius: 10px 0 0 10px;
+}
+
+.mainTab.ledge{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.mainTab{
+    cursor: pointer;
+}
+
+.mainTab h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.filter-tabs{
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.mainSection.container.dark .filter-tabs{
+    background-color: #3e3e42 !important;
+    border-color: #3e3e42 !important;
+    color: #FFFFFF !important;
+   
+}
+
+.filter-box{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.filter-box.active {
+    background: #498CCE;
+    color: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.main-content{
+    padding-right: 0 !important;
+    padding-left: 15px;
+}
+
+.main-content .row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.main-filter-box{
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-right: 0;
+}
+
+.mainSection.container.dark .main-filter-box{
+    background-color: #3e3e42 !important;
+    border-color: #3e3e42 !important;
+    color: #FFFFFF !important;
+   
+}
+
+.main-filter-box .search-icon{
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    color: #000000 !important;
+
+}
+
+.mainSection.container.dark .main-filter-box .search-icon{
+  
+    color: #FFFFFF !important;
+   
+}
+
+.main-filter-box .form-control{
+    padding-left: 30px;
+
+
+}
+
+.mainSection.container.dark .main-filter-box .form-control{
+    background-color: #3e3e42 !important;
+    
+    color: #FFFFFF !important;
+   
+}
+
+.mainSection.container.dark .main-filter-box .form-control::placeholder{
+    color: #FFFFFF !important;
+
+}
+
+.mainSection.container.dark .main-filter-box .form-select{
+    background-color: #3e3e42 !important;
+    
+    color: #FFFFFF !important;
+   
+}
+
+.mainSection.container.dark .main-filter-box .form-select::placeholder{
+   
+    
+    color: #FFFFFF !important;
+   
+}
+
+.main-filter-box .form-control, .form-select:focus{
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.main-filter-box .search-btn{
+    min-width: 5rem;
+    color: #FFFFFF;
+    background: #498CCE;
+    font-size: 15px;
+    box-shadow: none;
+    padding: 8px;
+    margin: 6px;
+    border: 0;
+    border-radius: 3px;
+
+}
+
+.main-filter-box .search-btn:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.mainSection.container.dark .filter-content{
+    background-color: #3e3e42 !important;
+    
+    color: #FFFFFF !important;
+   
+}
+
+.filter-content{
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.filter-content h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.filter-content .clear-filter {
+    text-decoration: underline !important;
+    color: #c71585;
+    float: right;
+    margin-right: 0.5rem;
+
+
+}
+
+.filter-heading{
+    cursor: pointer;
+    background: #498CCE;
+    color: #ffffff;
+    user-select: none;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+
+}
+
+.filter-checkbox{
+    position: relative;
+    padding: 0 0 0 2rem;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: block;
+
+}
+
+.filter-checkbox input[type="checkbox"]{
+    background-color: #eee;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+
+.filter-checkbox .checkmark{
+    background-color: #eee;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid #999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.filter-checkbox:hover .checkmark{
+    background-color: #ccc;
+}
+
+.filter-dd .search-skills{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    min-height: 50px !important;
+    width: 164px;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    
+    border: 1px solid #dcdcdc 
+  
+}
+
+.filter-dd .search-skills:focus, .filter-dd .search-skills:focus-visible{
+    border: 2px solid #dcdcdc !important;
+    border-color: #dcdcdc !important;
+    min-height: 50px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+
+.mainSection.container.dark .pagination .page-item{
+    background-color: #3e3e42 !important;
+    
+    color: #FFFFFF !important;
+   
+}
+
+.mainSection.container.dark .page-link {
+    color: #FFFFFF !important;
+
+}
+
+
+.pagination .page-item .page-link {
+    border: 1px solid #13b15c !important;
+    background-color: transparent;
+    font-size: .9rem;
+    color: #000000;
+    cursor: pointer;
+    
+    
+}
+
+.pagination .page-item.active .page-link{
+    background-color: #498CCE !important;
+    color:#fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+
+}
+
+.sep {
+    border-bottom: 1px solid #dbdfe2;
+    padding-bottom: 20px;
+    margin: 0 auto 20px;
+    height: 20px;
+    width: 97.5%;
+
+}

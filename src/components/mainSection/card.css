@@ -1,0 +1,46 @@
+.myCard{
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.myCard.dark{
+    background-color: #3e3e42 !important;
+    
+    color: #FFFFFF !important;
+   
+}
+
+.myCard .cover-image{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    height: 137px;
+    width: 250px;
+}
+
+.myCard .card-icon{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.myCard .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #498CCE;
+    word-break: break-word;
+}
+
+.myCard .p-text{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myCard .card-ds{
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
