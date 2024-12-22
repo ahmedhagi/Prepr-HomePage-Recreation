@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Usage
 
-#### SideBar
+### SideBar
 
 This applications features a sidebar on the top left of the screen that expands when the screen size is less than 1000px.
 
