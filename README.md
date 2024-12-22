@@ -1,6 +1,6 @@
 # Prepr Home Page Recreation
 
-This project is a Front-end recreation of the Prepr Home Page. 
+This project is a Front-end recreation of the Prepr Home Page. This application was design with visablity and accessablity in mind by including features such as a responsive sidebar, dark mode, and customized content and dropdowns. This application also showscases many front-end design features including a plethora hoverable links, icons and searchbars. 
 
 This application is built utilizing the React framework. The application's user interface is styled using Bootstrap CSS. 
 
